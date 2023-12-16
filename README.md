@@ -16,18 +16,18 @@ dotnet new web -o TodoApi
 
 dotnet watch run
 
-*Installed Packages:
+* Installed Packages:
 
 Microsoft.EntityFrameworkCore 
 Microsoft.EntityFrameworkCore.Design
 Pomelo.EntityFrameworkCore.MySql
 Microsoft.EntityFrameworkCore.Tools
 
-*Create the Model:
+* Create the Model:
 
 dotnet ef dbcontext scaffold Name=ToDoDB Pomelo.EntityFrameworkCore.MySql  -f -c ToDoDbContext
 
-*In case the changes are not reflected in the run, we will run a build command:
+* In case the changes are not reflected in the run, we will run a build command:
 
 dotnet build
 
