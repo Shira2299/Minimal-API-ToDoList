@@ -12,3 +12,28 @@ The command to create a new Web Api project:
 
 dotnet new web -o TodoApi
 
+* The command to run the application:
+
+dotnet watch run
+
+*Installed Packages:
+
+Microsoft.EntityFrameworkCore 
+Microsoft.EntityFrameworkCore.Design
+Pomelo.EntityFrameworkCore.MySql
+Microsoft.EntityFrameworkCore.Tools
+
+*Create the Model:
+
+dotnet ef dbcontext scaffold Name=ToDoDB Pomelo.EntityFrameworkCore.MySql  -f -c ToDoDbContext
+
+*In case the changes are not reflected in the run, we will run a build command:
+
+dotnet build
+
+followed by again:   
+
+dotnet watch run
+
+
+
