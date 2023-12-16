@@ -35,5 +35,19 @@ followed by again:
 
 dotnet watch run
 
+### * CONTAIN: CORS, SWAGGER, JWT
+
+## React
+
+### Tasks app
+Actions CRUD
+
+## MYSQL
+Database
+
+ש
+
+ש
+
 
 
