@@ -7,5 +7,5 @@ vscode:extension/ms-dot net tools.vscode-dotnet-pack
 
 ### Create a project
 The command to create a new Web Api project:
-[dotnet new web -o TodoApi](dotnet new web -o TodoApi)
+dotnet new web -o TodoApi
 
