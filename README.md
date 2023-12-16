@@ -1,7 +1,7 @@
 # WebAPI
 
 ## .NET
-* In this project we will use Visual Studio Code as our code editor
+#### * In this project we will use Visual Studio Code as our code editor
   
 For this purpose, this plugin must be installed:
 
@@ -12,22 +12,22 @@ The command to create a new Web Api project:
 
 dotnet new web -o TodoApi
 
-* The command to run the application:
+#### * The command to run the application:
 
 dotnet watch run
 
-* Installed Packages:
+#### * Installed Packages:
 
 Microsoft.EntityFrameworkCore 
 Microsoft.EntityFrameworkCore.Design
 Pomelo.EntityFrameworkCore.MySql
 Microsoft.EntityFrameworkCore.Tools
 
-* Create the Model:
+#### * Create the Model:
 
 dotnet ef dbcontext scaffold Name=ToDoDB Pomelo.EntityFrameworkCore.MySql  -f -c ToDoDbContext
 
-* In case the changes are not reflected in the run, we will run a build command:
+#### * In case the changes are not reflected in the run, we will run a build command:
 
 dotnet build
 
