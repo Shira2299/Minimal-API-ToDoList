@@ -43,7 +43,9 @@ dotnet watch run
 Actions CRUD
 
 ## MYSQL
-Database
+
+#### Connecting to MySQL using the DB First method
+We have created a MySQL database
 
 ש
 
