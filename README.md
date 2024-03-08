@@ -47,9 +47,3 @@ Actions CRUD
 #### Connecting to MySQL using the DB First method
 We have created a MySQL database
 
-ש
-
-ש
-
-
-
