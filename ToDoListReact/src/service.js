@@ -9,7 +9,7 @@ export default {
        const result = await axios.get(`${apiUrl}/items`)    
        return result.data;
     }catch(error){
-      console.error('Error in getTasks:', error);//throw error;
+      console.error('Error in getTasks:', error);//throw error;;
     }
    
   },
