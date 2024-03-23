@@ -32,6 +32,8 @@ var app = builder.Build();
     });
     app.UseCors("MyPolicy");
 
+app.MapGet("/", () => "ToDoAPI is running!");
+
 app.MapGet("/items", async (ToDoDbContext dbContext) => {
     var items = await dbContext.Items.ToListAsync();
     // Debug
